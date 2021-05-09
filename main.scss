@@ -1,0 +1,213 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow: hidden;
+    user-select: none;  
+}
+.container{
+    display: flex;
+    gap: 0px;
+}
+
+.image{
+    width: 100vw;
+    height: 100vh;
+}
+
+.img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.navigation{
+    z-index: 1;
+    &__button{
+        z-index: 10;
+    background-color: #101820FF;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    bottom: 50%;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: hover .5s ease;
+    }
+    &__button2{
+        z-index: 11;
+        background-color: #101820FF;
+        width: 40px;
+        height: 70px;
+        position: absolute;
+        bottom: 50%;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__button3{
+        z-index: 12;
+        background-color: #101820FF;
+        width: 40px;
+        height: 70px;
+        position: absolute;
+        bottom: 50%;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__button4{
+        z-index: 13;
+        background-color: #101820FF;
+        width: 40px;
+        height: 70px;
+        position: absolute;
+        bottom: 50%;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__checkbox4{
+        display: none;
+       &:checked ~ .img14{
+           transform: translateX(100vw);
+           z-index: 100;
+           display: none;
+       }
+       &:checked ~ .navigation__button4{
+        transform: translateX(0vw);
+        position: absolute;
+        bottom: 50%;
+        left: 0px;
+        transform: rotate(180deg);
+     }
+    } 
+    &__button5{
+        z-index: 13;
+        background-color: #101820FF;
+        width: 40px;
+        height: 70px;
+        position: absolute;
+        bottom: 50%;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__checkbox5{
+        display: none;
+       &:checked ~ .img15{
+           transform: translateX(100vw);
+           z-index: 100;
+           display: none;
+       }
+       &:checked ~ .navigation__button5{
+        transform: translateX(0vw);
+        position: absolute;
+        bottom: 50%;
+        left: 0px;
+        transform: rotate(180deg);
+     }
+    } 
+    &__button6{
+        z-index: 13;
+        background-color: #101820FF;
+        width: 40px;
+        height: 70px;
+        position: absolute;
+        bottom: 50%;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__checkbox6{
+        display: none;
+       &:checked ~ .img16{
+           transform: translateX(100vw);
+           z-index: 100;
+           display: none;
+       }
+       &:checked ~ .navigation__button6{
+        transform: translateX(0vw);
+        position: absolute;
+        bottom: 50%;
+        left: 0px;
+        transform: rotate(180deg);
+     }
+    } 
+
+    &__checkbox3{
+        display: none;
+       &:checked ~ .img13{
+           transform: translateX(100vw);
+           z-index: 100;
+           display: none;
+       }
+       &:checked ~ .navigation__button3{
+        transform: translateX(0vw);
+        position: absolute;
+        bottom: 50%;
+        left: 0px;
+        transform: rotate(180deg);
+     }
+    } 
+
+
+    &__checkbox2{
+        display: none;
+        &:checked ~ .img12{
+            transform: translateX(100vw);
+            display: none;
+         }
+         &:checked ~ .navigation__button2{
+            transform: translateX(0vw);
+            position: absolute;
+            bottom: 50%;
+            left: 0px;
+            transform: rotate(180deg);
+         }
+    }
+
+    
+    &__checkbox{
+        display: none;
+        &:checked ~ .img11{
+            transform: translateX(100vw);
+            display: none;
+        }
+         &:checked ~ .navigation__button{
+            transform: translateX(0vw);
+            bottom: 50%;
+            left: 0px;
+            transform: rotate(180deg);
+         }
+    }
+}
+
+
+.btn{
+    &:hover{
+        & > .icon{
+            transform: translateX(5px);
+        }
+    }
+}
+
+.icon{
+    transition: .4s ease;
+}

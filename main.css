@@ -1,0 +1,288 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+}
+
+.img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+  z-index: 1;
+}
+
+.navigation__button {
+  z-index: 10;
+  background-color: #101820FF;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: hover .5s ease;
+  transition: hover .5s ease;
+}
+
+.navigation__button2 {
+  z-index: 11;
+  background-color: #101820FF;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation__button3 {
+  z-index: 12;
+  background-color: #101820FF;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation__button4 {
+  z-index: 13;
+  background-color: #101820FF;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation__checkbox4 {
+  display: none;
+}
+
+.navigation__checkbox4:checked ~ .img14 {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  z-index: 100;
+  display: none;
+}
+
+.navigation__checkbox4:checked ~ .navigation__button4 {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  position: absolute;
+  bottom: 50%;
+  left: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navigation__button5 {
+  z-index: 13;
+  background-color: #101820FF;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation__checkbox5 {
+  display: none;
+}
+
+.navigation__checkbox5:checked ~ .img15 {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  z-index: 100;
+  display: none;
+}
+
+.navigation__checkbox5:checked ~ .navigation__button5 {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  position: absolute;
+  bottom: 50%;
+  left: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navigation__button6 {
+  z-index: 13;
+  background-color: #101820FF;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  bottom: 50%;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation__checkbox6 {
+  display: none;
+}
+
+.navigation__checkbox6:checked ~ .img16 {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  z-index: 100;
+  display: none;
+}
+
+.navigation__checkbox6:checked ~ .navigation__button6 {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  position: absolute;
+  bottom: 50%;
+  left: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navigation__checkbox3 {
+  display: none;
+}
+
+.navigation__checkbox3:checked ~ .img13 {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  z-index: 100;
+  display: none;
+}
+
+.navigation__checkbox3:checked ~ .navigation__button3 {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  position: absolute;
+  bottom: 50%;
+  left: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navigation__checkbox2 {
+  display: none;
+}
+
+.navigation__checkbox2:checked ~ .img12 {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  display: none;
+}
+
+.navigation__checkbox2:checked ~ .navigation__button2 {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  position: absolute;
+  bottom: 50%;
+  left: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navigation__checkbox {
+  display: none;
+}
+
+.navigation__checkbox:checked ~ .img11 {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  display: none;
+}
+
+.navigation__checkbox:checked ~ .navigation__button {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  bottom: 50%;
+  left: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.btn:hover > .icon {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.icon {
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+/*# sourceMappingURL=main.css.map */
